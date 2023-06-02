@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+opencv-python = ">=4.1.2"
+matplotlib = "*"
+ipyleaflet = ">=0.14.0"
+sklearn = "*"
+seaborn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
